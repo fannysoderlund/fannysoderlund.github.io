@@ -208,7 +208,8 @@ body {
 
 .about-container {
     display: flex;  
-    height: 100vh;
+    height: 100%;
+    width: 100%;
  
 }
 
@@ -262,8 +263,8 @@ body {
 
 .dog-container {
     margin-top: 8%;
-    height: 50%;
-    width: 35%;
+    height: 50vh;
+    width: 35vh;
     position: relative;
     margin-left: 30%;
     display: flex;
