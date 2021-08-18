@@ -39,12 +39,6 @@ goContact.addEventListener('click', function () {
   scroll('.contacts', 1000)
 })
 
-const type = document.querySelectorAll('#type path')
-
-for (let i = 0; i < type.length; i++) {
-  console.log(`Letter ${i} is ${type[i].getTotalLength()}`)
-}
-
 if (window.innerWidth < 650) {
   alert("I work much better horizontally, please flip me");
 }
