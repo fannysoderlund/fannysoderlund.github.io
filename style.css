@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+@media only screen and (max-width: 650px) {
+    .dog-container {
+        visibility: hidden;
+    }
+    .like-dog2 .like-dog1 {
+        visibility: hidden;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -258,15 +271,6 @@ body {
     margin-left: 30vh;
     display: flex;
     border: 2px solid black;
-}
-
-@media only screen and (max-width: 600px) {
-    .dog-container {
-        visibility: hidden;
-    }
-    .like-dog2 .like-dog1 {
-        visibility: hidden;
-    }
 }
 
 .like-dog1 {
