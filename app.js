@@ -46,5 +46,5 @@ for (let i = 0; i < type.length; i++) {
 }
 
 if (window.innerWidth < 650) {
-  alert("Flip me");
+  alert("I work much better horizontally, please flip me");
 }
