@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -216,7 +218,7 @@ body {
 
 
 .about-text {
-    margin-left: 20%;
+    margin-left: 20vh;
     line-height: 1.9; 
     font-family: 'Montserrat', sans-serif;
 }
