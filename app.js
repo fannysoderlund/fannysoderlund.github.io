@@ -38,7 +38,3 @@ goPortfolio.addEventListener('click', function () {
 goContact.addEventListener('click', function () {
   scroll('.contacts', 1000)
 })
-
-if (window.innerWidth < 650) {
-  alert("I work much better horizontally, please flip me");
-}

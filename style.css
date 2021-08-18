@@ -426,4 +426,8 @@ body {
     .zetkin p {
         opacity: 1;
     }
+
+    .contacts-information {
+        margin-right: 20vh;
+    }
 }
