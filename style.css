@@ -150,7 +150,7 @@ body {
 
 
 .me h1 {
-    font-size: 70px;
+    font-size: 5.5vw;
     font-family: 'Abril Fatface', cursive;
 
 }
@@ -176,7 +176,7 @@ body {
 .navigate a {
     text-decoration: none;
     color: black;
-    font-size: 30px;  
+    font-size: 2.5vw;  
     font-family: 'Bebas Neue', cursive;
     
 }
