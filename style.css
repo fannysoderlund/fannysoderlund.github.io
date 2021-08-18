@@ -343,7 +343,6 @@ body {
 .contacts-container {
     display: flex;  
     height: 100vh;
-    justify-content: space-evenly;
 }
 
 .contacts-header {
@@ -358,11 +357,14 @@ body {
 }
 
 .contacts-information {
-    height: 100vh;
-    margin-top: 20vh;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    margin-left: 30vh;
+    margin-right: 50vh;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
 }
 
 .contacts-information a {
