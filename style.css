@@ -197,7 +197,6 @@ body {
 
 .about {
     margin-bottom: 30vh; 
-
 }
 
 .about-container {
@@ -283,13 +282,12 @@ body {
 }
 
 .portfolio {
-    margin-top: 20vh;
+    margin-bottom: 30vh; 
 }
 
 .portfolio-container {
+    display: flex;  
     min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
 }
 
 .portfolio-header {
@@ -345,7 +343,13 @@ body {
 }
 
 .contacts {
+    margin-bottom: 30vh; 
+}
+
+.contacts-container {
+    display: flex;  
     height: 100vh;
+    justify-content: space-evenly;
 }
 
 .contacts-header {
@@ -359,21 +363,12 @@ body {
     font-size: 40px;
 }
 
-.contacts-container {
-    height: 100vh;
-    margin-left: 20vh;
-    margin-right: 40vh;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-}
-
 .contacts-information {
+    height: 100vh;
+    margin-top: 20vh;
     display: flex;
     flex-direction: column;
-    
+    justify-items: center;
 }
 
 .contacts-information a {
