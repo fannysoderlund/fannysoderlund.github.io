@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    overflow-x: scroll;
 }
 
 body {
@@ -19,12 +18,12 @@ body {
     align-items: center;
     justify-content:center;
     height: 100vh;
+    width: auto;
     line-height: 1.5;
-   margin-bottom: 25vh;
+    margin-bottom: 25vh;
 }
 
 .me {
-    margin-right: 10vh;
     padding: 5vh;
 }
 
