@@ -3,14 +3,6 @@
     box-sizing: border-box;
     padding: 0;
 }
-html, body {
-    height: 100%;
-    width: 100%;
-}
-html {
-    overflow: auto;
-}
-
 
 body {
     display: flex;
@@ -24,13 +16,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 100%;
-    max-width: 100%;
-    margin-top: 10%;
+    justify-content:center;
+    height: 100vh;
     line-height: 1.5;
+   margin-bottom: 25vh;
 }
 
 .me {
+    margin-right: 10vh;
     padding: 5vh;
 }
 
@@ -166,13 +159,14 @@ body {
 }
 
 .me-image img{
-    max-width: 23vh;
+    max-width: 30vh;
     height: auto; 
     border-radius: 50%; 
 }
 
 .navigate {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
     margin-top: 15vh;
     width: 50%;
@@ -208,22 +202,20 @@ body {
 
 .about-container {
     display: flex;  
-    height: 100%;
-    width: 100%;
+    height: 100vh;
  
 }
 
 .about-header {
     border-bottom: 2px solid black;
-    padding: 3%;
-    width: 60%;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    padding: 3vh;
+    margin-left: 20vh;
+    margin-right: 70vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
 }
-
 
 .about-text {
     margin-left: 20vh;
@@ -262,11 +254,11 @@ body {
 
 
 .dog-container {
-    margin-top: 8%;
+    margin-top: 8vh;
     height: 50vh;
-    width: 35vh;
+    width: 40vh;
     position: relative;
-    margin-left: 30%;
+    margin-left: 30vh;
     display: flex;
     border: 2px solid black;
 }
@@ -303,19 +295,19 @@ body {
 
 .portfolio-header {
     border-bottom: 2px solid black;
-    padding: 3%;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    padding: 3vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
 }
 
 .portfolio div {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 10vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.8;
@@ -348,7 +340,7 @@ body {
 }
 
 .portfolio div img {
-    padding-bottom: 4%;
+    padding-bottom: 3vh;
     max-width: 30vh;
     max-height: auto;
 }
@@ -359,20 +351,21 @@ body {
 
 .contacts-header {
     border-bottom: 2px solid black;
-    padding: 3%;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    padding: 3vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
 }
 
 .contacts-container {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
-    padding-bottom: 30%;
+    height: 100vh;
+    margin-left: 20vh;
+    margin-right: 40vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     display: flex;
     justify-content: space-around;
     justify-items: center;
@@ -381,12 +374,11 @@ body {
 .contacts-information {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     
 }
 
 .contacts-information a {
-    line-height: 3.8;
+    line-height: 3.5;
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -395,7 +387,7 @@ body {
 
 
 .download {
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 .download button {
