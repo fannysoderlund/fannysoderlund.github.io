@@ -17,9 +17,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    height: 100vh;
+    height: 100%;
     line-height: 1.5;
-   margin-bottom: 25vh;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .me {
