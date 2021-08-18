@@ -10,7 +10,7 @@ body {
     color: #EADDCA	; 
 
 }
-
+@media only screen and (min-width: 650px) {
 .header {
     display: flex;
     flex-direction: column;
@@ -20,9 +20,10 @@ body {
     line-height: 1.5;
     margin-top: 20vh;
 }
+}
 
 .me {
-    padding: 5vh;
+    margin: 10vh;
 }
 
 .me h1 {
@@ -157,7 +158,7 @@ body {
 }
 
 .me-image img{
-    max-width: 30vh;
+    max-width: 23vh;
     height: auto; 
     border-radius: 50%; 
 }
@@ -199,7 +200,7 @@ body {
 
 .about-container {
     display: flex;  
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .about-header {
@@ -377,7 +378,7 @@ body {
 
 
 .download {
-    margin-top: 15vh;
+    margin: 15vh;
 }
 
 .download button {
