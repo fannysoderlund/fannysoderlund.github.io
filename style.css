@@ -226,9 +226,9 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Caveat';
+    font-family: 'Bebas Neue';
     color: black;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .about-fun-fact:hover {
