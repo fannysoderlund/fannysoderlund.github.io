@@ -6,8 +6,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #696d69	;
-    color: #EADDCA	; 
+    background-color: #43464B	;
+    color: #cfd0c6	; 
 
 }
 
@@ -29,6 +29,7 @@ body {
 
 .me h1 {
     margin-top: 3vh;
+    color: #cfd0c6;
 }
 
 #type {
@@ -169,7 +170,7 @@ body {
 
 .navigate a {
     text-decoration: none;
-    color: black;
+    color: #FE5F55;
     font-size: 30px;  
     font-family: 'Bebas Neue', cursive;
     
@@ -177,26 +178,23 @@ body {
 
 .go-about:hover {
     transition: 0.3s ease;
-    color: #00A36C		;
+   color: #dd5248;
 }
 
 .go-portfolio:hover {
-    transition: 0.3s ease;
-    color:#FE5F55;
+    transition: 0.4s ease;
+    color: #dd5248;
 }
 
 .go-contact:hover {
     transition: 0.3s ease;
-    color: #E4D00A	;
-}
-
-.about {
-    margin-bottom: 30vh; 
+    color: #dd5248;
 }
 
 .about-container {
-    display: flex;  
     min-height: 100vh;
+    justify-content: center;
+
 }
 
 .about-header {
@@ -210,24 +208,24 @@ body {
     font-size: 40px;
 }
 
-.about-text {
-    margin-left: 20vh;
-    line-height: 1.9; 
-    font-family: 'Montserrat', sans-serif;
+.about-personal {
+    padding-left: 20vh;
+    padding-right: 20vh;
+    display: flex;
+    flex-direction: row;
 }
 
+.about-text {
+    line-height: 1.9; 
+    font-family: 'Montserrat', sans-serif;
 
+}
 .about-fun-fact {
-    margin-right: 20vh;
-    margin-top: 70vh;
-    width: 400vh;
-    margin-bottom: 5vh;
+    padding-left: 20vh;
     line-height: 1.8;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     font-family: 'Bebas Neue';
-    color: black;
+    color: #ff5442;
     font-size: 23px;
 }
 
@@ -245,37 +243,6 @@ body {
     width: 30vh;
 }
 
-
-.dog-container {
-    margin-top: 8vh;
-    height: 50vh;
-    width: 40vh;
-    position: relative;
-    margin-left: 30vh;
-    display: flex;
-    border: 2px solid black;
-}
-
-.like-dog1 {
-    width: 100%;
-    height: 100%;
-    
-}
-
-.like-dog2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.like-dog2:hover {
-    opacity: 1;
-}
-
 .portfolio {
     margin-bottom: 30vh; 
 }
@@ -286,7 +253,7 @@ body {
 }
 
 .portfolio-header {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #202020;
     padding: 3vh;
     margin-left: 20vh;
     margin-right: 20vh;
@@ -337,13 +304,8 @@ body {
     max-height: auto;
 }
 
-.contacts-container {
-    display: flex;  
-    height: 100vh;
-}
-
 .contacts-header {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #202020;
     padding: 3vh;
     margin-left: 20vh;
     margin-right: 20vh;
@@ -353,36 +315,35 @@ body {
     font-size: 40px;
 }
 
-.contacts-information {
+.contacts-container {  
     display: flex;
-    flex-direction: column;
-    margin-left: 30vh;
-    margin-right: 50vh;
-    margin-top: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.8;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-top: 5vh;
+    height: 100vh;
+
 }
 
-.contacts-information a {
+.contacts-container a {
     line-height: 3.5;
     text-decoration: none;
-    color: black;
+    color: #cfd0c6;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 
-.download {
-    margin: 15vh;
-}
-
-.download button {
+.contacts-container a button {
     background-color: transparent;
-    border: 2px solid #FE5F55;
+    border: 2px solid #Ff5442;
     text-decoration:none;
     padding: 5px;
-    color:#2c2c2c;
+    color:#cfd0c6;
     text-align:center;
     transition: all 0.2s;
     border-radius: 8px;
@@ -391,21 +352,21 @@ body {
     width: 200px;
     
 }
-.download button::after {
+.contacts-container a button::after {
     content: 'Download resume';
 }
 
-.download button:hover{
+.contacts-container a button:hover{
     background-color: #FE5F55;
 }
 
-.download button:focus:hover {
+.contacts-container a button:focus:hover {
     transition: 0.5s ease;
-    background-color: #00A36C;
-    border: 2px solid #00A36C;
+    background-color: #FE5F55;
+    border: 2px solid #FE5F55;
 }
-.download button:focus {
-    border: 2px solid #00A36C;
+.contacts-container a button:focus {
+    border: 2px solid #FE5F55;
 }
 
 .download button:focus::after {
