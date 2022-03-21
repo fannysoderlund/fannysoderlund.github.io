@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+.contacts-container {  
+  margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+       font-family: 'Bebas Neue';
+     color: #f0e566	; 
+  
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
+}
+
+.contacts-container a {
+    line-height: 2;
+    width: fit-content;
+    text-decoration: none;
+         font-family: 'Bebas Neue';
+     color: #f0e566	; 
+  font-size: 50px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+
+.contacts-container a button {
+    background-color: transparent;
+    border: 2px solid red;
+    text-decoration:none;
+    padding: 5px;
+    background-color: #9BA2FF;;
+    color:  #001200; 
+    text-align:center;
+    transition: all 0.2s;
+    border-radius: 8px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    width: 200px;
+    
+}
+.contacts-container a button::after {
+    content: 'Download resume';
+}
+
+.contacts-container a button:hover{
+    background-color: red;
+}
+
+.contacts-container a button:focus:hover {
+    transition: 0.5s ease;
+    background-color: red;
+    border: 2px solid red;
+}
+.contacts-container a button:focus {
+    border: 2px solid red;
+}
+
+.download button:focus::after {
+    content: 'Downloaded resume';
+}
+
+@media only screen and (max-width: 650px) {
+
+    .contacts-information {
+        margin-right: 20vh;
+    }
+}
