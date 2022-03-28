@@ -61,7 +61,7 @@
     content: 'Downloaded resume';
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 480px) {
 
     .contacts-information {
         margin-right: 20vh;

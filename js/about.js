@@ -4,11 +4,15 @@ let funFactText;
 function funFact() {
 
   funs = [
-    'Current favorite song is \'Seasons in the sun\' by Terry Jacks',
-    'I made my own egg hatching machine for a project in school and so far it has produced 15 chickens',
-    'I have both a diving certificate and a flying certificate (and then I got a driver\'s licence too)',
-    'Before I started studying, I was in the restaurant business and had my own café and night club in Greece',
-    'I like to paint, but I only paint birds'
+    'My favourite artist is Ted Gärdestad',
+    'I made an egg hatching machine for a project in school and so far it has produced 21 chickens',
+    'I got a diving certificate and a flying certificate before I got my driver\'s licence',
+    'Before I started studying, I was in the restaurant business and co-owned a café and bar in Greece',
+    'I like to paint, but only birds',
+    'I enjoy folklore tales and other mythologies, especially Nordic and Greek',
+    'Opinion: Cuphead\'s design is the definition of fine arts',
+    'Most recently read book is the third book in the Witcher\'s series',
+    'Current song on repeat is \'The lady loves me\' by Elvis and Ann-Margret'
   ];
 
   funFactText = document.querySelector('#fun-fact-text')
