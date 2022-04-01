@@ -1,4 +1,4 @@
 // eslint-disable-next-line no-unused-vars
-function imageClick (url) {
+function cardClick(url) {
   window.open(url, '_blank')
 }

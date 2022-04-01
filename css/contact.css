@@ -2,42 +2,38 @@
 
 .contacts-container {  
   margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-       font-family: 'Bebas Neue';
-     color: #f0e566	; 
-  
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contacts-container a {
-    line-height: 2;
-    width: fit-content;
-    text-decoration: none;
-         font-family: 'Bebas Neue';
-     color: #f0e566	; 
+  line-height: 2;
+  width: fit-content;
+  text-decoration: none;
+  color: #ece4db	;
   font-size: 50px;
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  font-family: 'Bebas Neue';
+  text-shadow: 5px 5px 15px rgb(81,67,21),
+    -5px 5px 15px rgb(81,67,21),
+    -5px -5px 15px rgb(81,67,21),
+    5px -5px 15px rgb(81,67,21);
 }
 
 
 .contacts-container a button {
-    background-color: transparent;
-    border: 2px solid red;
-    text-decoration:none;
-    padding: 5px;
-    background-color: #9BA2FF;;
-    color:  #001200; 
-    text-align:center;
-    transition: all 0.2s;
-    border-radius: 8px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
-    width: 200px;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 5px;
+  color:  white; 
+  text-align:center;
+  transition: all 0.2s;
+  border-radius: 8px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+  width: 200px;
     
 }
 .contacts-container a button::after {
@@ -45,16 +41,19 @@
 }
 
 .contacts-container a button:hover{
-    background-color: red;
+  background-color: #ece4db;
+  color: black;
+
 }
 
 .contacts-container a button:focus:hover {
     transition: 0.5s ease;
-    background-color: red;
-    border: 2px solid red;
+    text-shadow: 5px 5px 15px rgb(81,67,21);
+
 }
 .contacts-container a button:focus {
-    border: 2px solid red;
+  text-shadow: 5px 5px 15px rgb(81,67,21);
+
 }
 
 .download button:focus::after {

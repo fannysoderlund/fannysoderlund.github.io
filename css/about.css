@@ -19,7 +19,7 @@
 
 .about-text {
   display: block;
-  color: #819595	; 
+  color: white	; 
   line-height: 1.9; 
   font-family: 'Montserrat', sans-serif;
   width: 600px;
@@ -32,10 +32,13 @@
   width: 400px;
   line-height: 1.8;
   text-align: center;
+  color: #ece4db	;
+  font-size: 25px;
   font-family: 'Bebas Neue';
-  color: #f0e566;
-  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-  font-size: 23px;
+text-shadow: 5px 5px 15px rgb(81,67,21),
+    -5px 5px 15px rgb(81,67,21),
+    -5px -5px 15px rgb(81,67,21),
+    5px -5px 15px rgb(81,67,21);
 }
 
 .about-fun-fact:hover {
@@ -53,7 +56,7 @@
     user-select: none;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 480px) {
   .about-personal {
     flex-direction: column;
   }
