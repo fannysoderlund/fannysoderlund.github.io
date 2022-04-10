@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
@@ -10,6 +10,7 @@
 body {
   min-height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   background-color: #001200;
@@ -34,10 +35,10 @@ main {
 
 .name {
   padding-top: 80px;
-  color: #ece4db	; 
+  color: #ece4db;
   font-size: 150px;
-  font-family: 'Bebas Neue';  
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+  font-family: 'Bebas Neue';
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
   line-height: 0.4;
 }
 
@@ -51,8 +52,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #D0CEBA	; 
-  font-size: 20px;  
+  color: #D0CEBA;
+  font-size: 20px;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -70,99 +71,114 @@ nav a:hover {
   animation: fill 3.5s ease forwards 3.5s;
 }
 
-#type path:nth-child(2){
+#type path:nth-child(2) {
   stroke-dasharray: 97;
   stroke-dashoffset: 97;
-  animation: line-anim 2s ease forwards 0.2s; 
+  animation: line-anim 2s ease forwards 0.2s;
 
 }
-#type path:nth-child(3){
+
+#type path:nth-child(3) {
   stroke-dasharray: 50;
   stroke-dashoffset: 50;
-  animation: line-anim 2s ease forwards 0.4s; 
+  animation: line-anim 2s ease forwards 0.4s;
 }
-#type path:nth-child(4){
+
+#type path:nth-child(4) {
   stroke-dasharray: 119;
   stroke-dashoffset: 119;
-  animation: line-anim 2s ease forwards 0.6s; 
+  animation: line-anim 2s ease forwards 0.6s;
 
 }
-#type path:nth-child(5){
+
+#type path:nth-child(5) {
   stroke-dasharray: 64;
   stroke-dashoffset: 64;
-  animation: line-anim 2s ease forwards 0.8s; 
+  animation: line-anim 2s ease forwards 0.8s;
 
 }
-#type path:nth-child(6){
+
+#type path:nth-child(6) {
   stroke-dasharray: 58;
   stroke-dashoffset: 58;
-  animation: line-anim 2s ease forwards 1s; 
+  animation: line-anim 2s ease forwards 1s;
 
 }
-#type path:nth-child(7){
+
+#type path:nth-child(7) {
   stroke-dasharray: 36;
   stroke-dashoffset: 36;
-  animation: line-anim 2s ease forwards 1.2s; 
+  animation: line-anim 2s ease forwards 1.2s;
 
 }
-#type path:nth-child(8){
+
+#type path:nth-child(8) {
   stroke-dasharray: 54;
   stroke-dashoffset: 54;
-  animation: line-anim 2s ease forwards 1.4s; 
+  animation: line-anim 2s ease forwards 1.4s;
 
 }
-#type path:nth-child(9){
+
+#type path:nth-child(9) {
   stroke-dasharray: 122;
   stroke-dashoffset: 122;
-  animation: line-anim 2s ease forwards 1.6s; 
+  animation: line-anim 2s ease forwards 1.6s;
 
 }
-#type path:nth-child(10){
+
+#type path:nth-child(10) {
   stroke-dasharray: 52;
   stroke-dashoffset: 52;
-  animation: line-anim 2s ease forwards 1.8s; 
+  animation: line-anim 2s ease forwards 1.8s;
 
 }
-#type path:nth-child(11){
+
+#type path:nth-child(11) {
   stroke-dasharray: 41;
   stroke-dashoffset: 41;
-  animation: line-anim 2s ease forwards 2s; 
+  animation: line-anim 2s ease forwards 2s;
 
 }
-#type path:nth-child(12){
+
+#type path:nth-child(12) {
   stroke-dasharray: 43;
   stroke-dashoffset: 43;
-  animation: line-anim 2s ease forwards 2.2s; 
+  animation: line-anim 2s ease forwards 2.2s;
 
 }
-#type path:nth-child(13){
+
+#type path:nth-child(13) {
   stroke-dasharray: 57;
   stroke-dashoffset: 57;
-  animation: line-anim 2s ease forwards 2.4s; 
+  animation: line-anim 2s ease forwards 2.4s;
 
 }
-#type path:nth-child(14){
+
+#type path:nth-child(14) {
   stroke-dasharray: 50;
   stroke-dashoffset: 50;
-  animation: line-anim 2s ease forwards 2.6s; 
+  animation: line-anim 2s ease forwards 2.6s;
 
 }
-#type path:nth-child(15){
+
+#type path:nth-child(15) {
   stroke-dasharray: 63;
   stroke-dashoffset: 63;
-  animation: line-anim 2s ease forwards 2.8s; 
+  animation: line-anim 2s ease forwards 2.8s;
 
 }
-#type path:nth-child(16){
+
+#type path:nth-child(16) {
   stroke-dasharray: 52;
   stroke-dashoffset: 52;
-  animation: line-anim 2s ease forwards 3s; 
+  animation: line-anim 2s ease forwards 3s;
 
 }
-#type path:nth-child(17){
+
+#type path:nth-child(17) {
   stroke-dasharray: 41;
   stroke-dashoffset: 41;
-  animation: line-anim 2s ease forwards 3.2s; 
+  animation: line-anim 2s ease forwards 3.2s;
 
 }
 
@@ -176,7 +192,8 @@ nav a:hover {
   from {
     fill: transparent;
   }
-  to { 
+
+  to {
     fill: #D0CEBA;
   }
 }
@@ -189,7 +206,7 @@ nav a:hover {
   }
 
   nav {
-    width: 80%;
+    width: 90%;
   }
 
   #type {
@@ -199,10 +216,9 @@ nav a:hover {
   .me-container {
     margin-top: 30%;
   }
-  
+
   .name {
     font-size: 95px;
     padding-top: 60px;
   }
 }
-
